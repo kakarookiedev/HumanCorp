@@ -30,12 +30,14 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.folhaSalarialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.apontamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aasdasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.adsadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.departamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cargoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.apontamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.folhaSalarialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registoDeHorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculoSalarialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +47,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroToolStripMenuItem,
             this.apontamentoToolStripMenuItem,
-            this.folhaSalarialToolStripMenuItem});
+            this.folhaSalarialToolStripMenuItem,
+            this.relatóriosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1207, 28);
@@ -62,31 +65,11 @@
             this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             // 
-            // folhaSalarialToolStripMenuItem
-            // 
-            this.folhaSalarialToolStripMenuItem.Name = "folhaSalarialToolStripMenuItem";
-            this.folhaSalarialToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
-            this.folhaSalarialToolStripMenuItem.Text = "Folha Salarial";
-            // 
-            // apontamentoToolStripMenuItem
-            // 
-            this.apontamentoToolStripMenuItem.Name = "apontamentoToolStripMenuItem";
-            this.apontamentoToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
-            this.apontamentoToolStripMenuItem.Text = "Apontamento";
-            // 
             // aasdasToolStripMenuItem
             // 
-            this.aasdasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.adsadToolStripMenuItem});
             this.aasdasToolStripMenuItem.Name = "aasdasToolStripMenuItem";
             this.aasdasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.aasdasToolStripMenuItem.Text = "Funcionário";
-            // 
-            // adsadToolStripMenuItem
-            // 
-            this.adsadToolStripMenuItem.Name = "adsadToolStripMenuItem";
-            this.adsadToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.adsadToolStripMenuItem.Text = "adsad";
             // 
             // departamentoToolStripMenuItem
             // 
@@ -99,6 +82,40 @@
             this.cargoToolStripMenuItem.Name = "cargoToolStripMenuItem";
             this.cargoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.cargoToolStripMenuItem.Text = "cargo";
+            // 
+            // apontamentoToolStripMenuItem
+            // 
+            this.apontamentoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registoDeHorasToolStripMenuItem});
+            this.apontamentoToolStripMenuItem.Name = "apontamentoToolStripMenuItem";
+            this.apontamentoToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
+            this.apontamentoToolStripMenuItem.Text = "Apontamento";
+            // 
+            // folhaSalarialToolStripMenuItem
+            // 
+            this.folhaSalarialToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.calculoSalarialToolStripMenuItem});
+            this.folhaSalarialToolStripMenuItem.Name = "folhaSalarialToolStripMenuItem";
+            this.folhaSalarialToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
+            this.folhaSalarialToolStripMenuItem.Text = "Folha Salarial";
+            // 
+            // registoDeHorasToolStripMenuItem
+            // 
+            this.registoDeHorasToolStripMenuItem.Name = "registoDeHorasToolStripMenuItem";
+            this.registoDeHorasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.registoDeHorasToolStripMenuItem.Text = "Registo de Horas";
+            // 
+            // calculoSalarialToolStripMenuItem
+            // 
+            this.calculoSalarialToolStripMenuItem.Name = "calculoSalarialToolStripMenuItem";
+            this.calculoSalarialToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.calculoSalarialToolStripMenuItem.Text = "Calculo Salarial";
+            // 
+            // relatóriosToolStripMenuItem
+            // 
+            this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
+            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
+            this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
             // Menu
             // 
@@ -123,9 +140,11 @@
         private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem folhaSalarialToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aasdasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem adsadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem departamentoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cargoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem apontamentoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registoDeHorasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculoSalarialToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem relatóriosToolStripMenuItem;
     }
 }
