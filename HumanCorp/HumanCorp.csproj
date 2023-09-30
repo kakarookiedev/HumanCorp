@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cadastro\Cargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Cargo.Designer.cs">
+      <DependentUpon>Cargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro\Departamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Departamento.Designer.cs">
+      <DependentUpon>Departamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cadastro\Cargo.resx">
+      <DependentUpon>Cargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro\Departamento.resx">
+      <DependentUpon>Departamento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

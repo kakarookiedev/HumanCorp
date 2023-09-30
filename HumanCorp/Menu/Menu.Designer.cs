@@ -81,7 +81,7 @@
             // 
             this.cargoToolStripMenuItem.Name = "cargoToolStripMenuItem";
             this.cargoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.cargoToolStripMenuItem.Text = "cargo";
+            this.cargoToolStripMenuItem.Text = "Cargo";
             // 
             // apontamentoToolStripMenuItem
             // 
