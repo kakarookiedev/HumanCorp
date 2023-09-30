@@ -1,0 +1,12 @@
+C:\Project\HumanCorp.Controle\bin\Debug\net7.0\HumanCorp.Controle.deps.json
+C:\Project\HumanCorp.Controle\bin\Debug\net7.0\HumanCorp.Controle.dll
+C:\Project\HumanCorp.Controle\bin\Debug\net7.0\HumanCorp.Controle.pdb
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\HumanCorp.Controle.csproj.AssemblyReference.cache
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\HumanCorp.Controle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\HumanCorp.Controle.AssemblyInfoInputs.cache
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\HumanCorp.Controle.AssemblyInfo.cs
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\HumanCorp.Controle.csproj.CoreCompileInputs.cache
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\HumanCorp.Controle.dll
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\refint\HumanCorp.Controle.dll
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\HumanCorp.Controle.pdb
+C:\Project\HumanCorp.Controle\obj\Debug\net7.0\ref\HumanCorp.Controle.dll

@@ -1,0 +1,12 @@
+C:\Project\HumanCorp\bin\Debug\HumanCorp.exe.config
+C:\Project\HumanCorp\bin\Debug\HumanCorp.exe
+C:\Project\HumanCorp\bin\Debug\HumanCorp.pdb
+C:\Project\HumanCorp\obj\Debug\HumanCorp.csproj.AssemblyReference.cache
+C:\Project\HumanCorp\obj\Debug\HumanCorp.csproj.SuggestedBindingRedirects.cache
+C:\Project\HumanCorp\obj\Debug\HumanCorp.Properties.Resources.resources
+C:\Project\HumanCorp\obj\Debug\HumanCorp.csproj.GenerateResource.cache
+C:\Project\HumanCorp\obj\Debug\HumanCorp.csproj.CoreCompileInputs.cache
+C:\Project\HumanCorp\obj\Debug\HumanCorp.exe
+C:\Project\HumanCorp\obj\Debug\HumanCorp.pdb
+C:\Project\HumanCorp\obj\Debug\HumanCorp.Login.resources
+C:\Project\HumanCorp\obj\Debug\HumanCorp.Menu.Menu.resources
