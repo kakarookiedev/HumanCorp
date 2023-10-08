@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aasdasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.departamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cargoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apontamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.folhaSalarialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registoDeHorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.folhaSalarialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculoSalarialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -68,19 +69,19 @@
             // aasdasToolStripMenuItem
             // 
             this.aasdasToolStripMenuItem.Name = "aasdasToolStripMenuItem";
-            this.aasdasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aasdasToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.aasdasToolStripMenuItem.Text = "Funcionário";
             // 
             // departamentoToolStripMenuItem
             // 
             this.departamentoToolStripMenuItem.Name = "departamentoToolStripMenuItem";
-            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.departamentoToolStripMenuItem.Text = "Departamento";
             // 
             // cargoToolStripMenuItem
             // 
             this.cargoToolStripMenuItem.Name = "cargoToolStripMenuItem";
-            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.cargoToolStripMenuItem.Text = "Cargo";
             // 
             // apontamentoToolStripMenuItem
@@ -91,6 +92,12 @@
             this.apontamentoToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
             this.apontamentoToolStripMenuItem.Text = "Apontamento";
             // 
+            // registoDeHorasToolStripMenuItem
+            // 
+            this.registoDeHorasToolStripMenuItem.Name = "registoDeHorasToolStripMenuItem";
+            this.registoDeHorasToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
+            this.registoDeHorasToolStripMenuItem.Text = "Registo de Horas";
+            // 
             // folhaSalarialToolStripMenuItem
             // 
             this.folhaSalarialToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -99,16 +106,10 @@
             this.folhaSalarialToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
             this.folhaSalarialToolStripMenuItem.Text = "Folha Salarial";
             // 
-            // registoDeHorasToolStripMenuItem
-            // 
-            this.registoDeHorasToolStripMenuItem.Name = "registoDeHorasToolStripMenuItem";
-            this.registoDeHorasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.registoDeHorasToolStripMenuItem.Text = "Registo de Horas";
-            // 
             // calculoSalarialToolStripMenuItem
             // 
             this.calculoSalarialToolStripMenuItem.Name = "calculoSalarialToolStripMenuItem";
-            this.calculoSalarialToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.calculoSalarialToolStripMenuItem.Size = new System.Drawing.Size(194, 26);
             this.calculoSalarialToolStripMenuItem.Text = "Calculo Salarial";
             // 
             // relatóriosToolStripMenuItem
@@ -121,6 +122,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1207, 513);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
