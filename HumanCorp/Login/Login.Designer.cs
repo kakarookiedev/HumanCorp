@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txt_login = new System.Windows.Forms.TextBox();
+            this.txt_senha = new System.Windows.Forms.TextBox();
+            this.btn_logar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,37 +55,38 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Senha:";
             // 
-            // textBox1
+            // txt_login
             // 
-            this.textBox1.Location = new System.Drawing.Point(198, 198);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(267, 22);
-            this.textBox1.TabIndex = 2;
+            this.txt_login.Location = new System.Drawing.Point(198, 198);
+            this.txt_login.Name = "txt_login";
+            this.txt_login.Size = new System.Drawing.Size(267, 22);
+            this.txt_login.TabIndex = 2;
             // 
-            // textBox2
+            // txt_senha
             // 
-            this.textBox2.Location = new System.Drawing.Point(198, 270);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(267, 22);
-            this.textBox2.TabIndex = 3;
+            this.txt_senha.Location = new System.Drawing.Point(198, 270);
+            this.txt_senha.Name = "txt_senha";
+            this.txt_senha.Size = new System.Drawing.Size(267, 22);
+            this.txt_senha.TabIndex = 3;
             // 
-            // button1
+            // btn_logar
             // 
-            this.button1.Location = new System.Drawing.Point(240, 331);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 37);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Logar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_logar.Location = new System.Drawing.Point(240, 331);
+            this.btn_logar.Name = "btn_logar";
+            this.btn_logar.Size = new System.Drawing.Size(165, 37);
+            this.btn_logar.TabIndex = 4;
+            this.btn_logar.Text = "Logar";
+            this.btn_logar.UseVisualStyleBackColor = true;
+            this.btn_logar.Click += new System.EventHandler(this.btn_logar_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 597);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_logar);
+            this.Controls.Add(this.txt_senha);
+            this.Controls.Add(this.txt_login);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -100,9 +101,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txt_login;
+        private System.Windows.Forms.TextBox txt_senha;
+        private System.Windows.Forms.Button btn_logar;
     }
 }
 
