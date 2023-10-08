@@ -1,7 +1,7 @@
 ﻿
 using System.Windows.Forms;
 
-using HumanCorp.ControleLogin;
+using HumanCorp.Modelo;
 
 namespace HumanCorp
 {
@@ -15,7 +15,7 @@ namespace HumanCorp
 
         private void btn_logar_Click(object sender, System.EventArgs e)
         {
-            Ctl Ctl = new Ctl();
+            mdlLogin Ctl = new mdlLogin();
 
             string login = txt_login.Text.ToUpper();
             string senha = txt_senha.Text.ToUpper();

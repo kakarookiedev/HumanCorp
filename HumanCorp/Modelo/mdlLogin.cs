@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HumanCorp.ControleLogin
+namespace HumanCorp.Modelo
 {
-    public class Ctl
+    public class mdlLogin
     {
         private string _login = "HUMANCORP";
         private string _senha = "ADMHC";
