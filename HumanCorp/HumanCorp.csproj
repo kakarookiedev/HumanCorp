@@ -64,6 +64,8 @@
     <Compile Include="Cadastro\Departamento.Designer.cs">
       <DependentUpon>Departamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\mdlCargo.cs" />
+    <Compile Include="Modelo\mdlDepartamento.cs" />
     <Compile Include="Modelo\mdlLogin.cs" />
     <Compile Include="Login\Login.cs">
       <SubType>Form</SubType>

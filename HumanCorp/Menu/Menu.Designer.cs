@@ -39,6 +39,9 @@
             this.folhaSalarialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculoSalarialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fériasDeFuncionárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registrosSalariaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resgistrosDePontosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,19 +72,19 @@
             // aasdasToolStripMenuItem
             // 
             this.aasdasToolStripMenuItem.Name = "aasdasToolStripMenuItem";
-            this.aasdasToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
+            this.aasdasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.aasdasToolStripMenuItem.Text = "Funcionário";
             // 
             // departamentoToolStripMenuItem
             // 
             this.departamentoToolStripMenuItem.Name = "departamentoToolStripMenuItem";
-            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
+            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.departamentoToolStripMenuItem.Text = "Departamento";
             // 
             // cargoToolStripMenuItem
             // 
             this.cargoToolStripMenuItem.Name = "cargoToolStripMenuItem";
-            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
+            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.cargoToolStripMenuItem.Text = "Cargo";
             // 
             // apontamentoToolStripMenuItem
@@ -95,7 +98,7 @@
             // registoDeHorasToolStripMenuItem
             // 
             this.registoDeHorasToolStripMenuItem.Name = "registoDeHorasToolStripMenuItem";
-            this.registoDeHorasToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
+            this.registoDeHorasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.registoDeHorasToolStripMenuItem.Text = "Registo de Horas";
             // 
             // folhaSalarialToolStripMenuItem
@@ -109,14 +112,36 @@
             // calculoSalarialToolStripMenuItem
             // 
             this.calculoSalarialToolStripMenuItem.Name = "calculoSalarialToolStripMenuItem";
-            this.calculoSalarialToolStripMenuItem.Size = new System.Drawing.Size(194, 26);
+            this.calculoSalarialToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.calculoSalarialToolStripMenuItem.Text = "Calculo Salarial";
             // 
             // relatóriosToolStripMenuItem
             // 
+            this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fériasDeFuncionárioToolStripMenuItem,
+            this.registrosSalariaisToolStripMenuItem,
+            this.resgistrosDePontosToolStripMenuItem});
             this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
             this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
             this.relatóriosToolStripMenuItem.Text = "Relatórios";
+            // 
+            // fériasDeFuncionárioToolStripMenuItem
+            // 
+            this.fériasDeFuncionárioToolStripMenuItem.Name = "fériasDeFuncionárioToolStripMenuItem";
+            this.fériasDeFuncionárioToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.fériasDeFuncionárioToolStripMenuItem.Text = "Férias de Funcionário";
+            // 
+            // registrosSalariaisToolStripMenuItem
+            // 
+            this.registrosSalariaisToolStripMenuItem.Name = "registrosSalariaisToolStripMenuItem";
+            this.registrosSalariaisToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.registrosSalariaisToolStripMenuItem.Text = "Registros Salariais";
+            // 
+            // resgistrosDePontosToolStripMenuItem
+            // 
+            this.resgistrosDePontosToolStripMenuItem.Name = "resgistrosDePontosToolStripMenuItem";
+            this.resgistrosDePontosToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.resgistrosDePontosToolStripMenuItem.Text = "Resgistros de Pontos";
             // 
             // Menu
             // 
@@ -150,5 +175,8 @@
         private System.Windows.Forms.ToolStripMenuItem registoDeHorasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculoSalarialToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatóriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fériasDeFuncionárioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registrosSalariaisToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resgistrosDePontosToolStripMenuItem;
     }
 }

@@ -1,11 +1,13 @@
-﻿using HumanCorp.Menu;
+﻿using HumanCorp.Apontamento;
+using HumanCorp.Cadastro;
+using HumanCorp.Menu;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HumanCorp.Menu
+namespace HumanCorp
 {
     internal static class Program
     {
@@ -17,7 +19,7 @@ namespace HumanCorp.Menu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new Departamento());
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HumanCorp.Modelo;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace HumanCorp.Cadastro
         public Departamento()
         {
             InitializeComponent();
+        }
+
+        private void btn_CadastrarDepartamento_Click(object sender, EventArgs e)
+        {
+            mdlDepartamento Ctl = new mdlDepartamento();
+
+            MessageBox.Show("Departamento Cadastrado");
+
+            Ctl.idDepartamento = int.Parse(txt_idDepartamento.Text);
+            Ctl.departamentoNome = txt_DepartamentoNome.Text;
         }
     }
 }

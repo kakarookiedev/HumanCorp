@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btn_CadastrarCargo = new System.Windows.Forms.Button();
+            this.txt_salario = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txt_Cargo = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmb_departamento = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.btn_CadastrarCargo);
+            this.groupBox1.Controls.Add(this.txt_salario);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_Cargo);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cmb_departamento);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(13, 28);
             this.groupBox1.Name = "groupBox1";
@@ -57,38 +57,31 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cadastrar Cargo";
             // 
-            // label1
+            // button2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Departamento:";
+            this.button2.Location = new System.Drawing.Point(364, 127);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(115, 44);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Excluir Cargo";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // btn_CadastrarCargo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(108, 30);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(139, 24);
-            this.comboBox1.TabIndex = 1;
+            this.btn_CadastrarCargo.Location = new System.Drawing.Point(504, 127);
+            this.btn_CadastrarCargo.Name = "btn_CadastrarCargo";
+            this.btn_CadastrarCargo.Size = new System.Drawing.Size(115, 44);
+            this.btn_CadastrarCargo.TabIndex = 6;
+            this.btn_CadastrarCargo.Text = "Cadastrar Cargo";
+            this.btn_CadastrarCargo.UseVisualStyleBackColor = true;
+            this.btn_CadastrarCargo.Click += new System.EventHandler(this.btn_CadastrarCargo_Click);
             // 
-            // label2
+            // txt_salario
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(290, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Cargo:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(343, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(277, 22);
-            this.textBox1.TabIndex = 3;
+            this.txt_salario.Location = new System.Drawing.Point(69, 76);
+            this.txt_salario.Name = "txt_salario";
+            this.txt_salario.Size = new System.Drawing.Size(178, 22);
+            this.txt_salario.TabIndex = 5;
             // 
             // label3
             // 
@@ -99,30 +92,38 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Salário:";
             // 
-            // textBox2
+            // txt_Cargo
             // 
-            this.textBox2.Location = new System.Drawing.Point(69, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(178, 22);
-            this.textBox2.TabIndex = 5;
+            this.txt_Cargo.Location = new System.Drawing.Point(343, 30);
+            this.txt_Cargo.Name = "txt_Cargo";
+            this.txt_Cargo.Size = new System.Drawing.Size(277, 22);
+            this.txt_Cargo.TabIndex = 3;
             // 
-            // button1
+            // label2
             // 
-            this.button1.Location = new System.Drawing.Point(504, 127);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 44);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Cadastrar Cargo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(290, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Cargo:";
             // 
-            // button2
+            // cmb_departamento
             // 
-            this.button2.Location = new System.Drawing.Point(364, 127);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 44);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Excluir Cargo";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cmb_departamento.FormattingEnabled = true;
+            this.cmb_departamento.Location = new System.Drawing.Point(108, 30);
+            this.cmb_departamento.Name = "cmb_departamento";
+            this.cmb_departamento.Size = new System.Drawing.Size(139, 24);
+            this.cmb_departamento.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Departamento:";
             // 
             // Cargo
             // 
@@ -141,13 +142,13 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmb_departamento;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btn_CadastrarCargo;
+        private System.Windows.Forms.TextBox txt_salario;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Cargo;
         private System.Windows.Forms.Label label2;
     }
 }
