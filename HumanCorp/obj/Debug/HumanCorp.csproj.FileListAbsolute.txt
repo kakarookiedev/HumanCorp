@@ -9,7 +9,8 @@ C:\Project\HumanCorp\obj\Debug\HumanCorp.csproj.CoreCompileInputs.cache
 C:\Project\HumanCorp\obj\Debug\HumanCorp.exe
 C:\Project\HumanCorp\obj\Debug\HumanCorp.pdb
 C:\Project\HumanCorp\obj\Debug\HumanCorp.Login.resources
-C:\Project\HumanCorp\obj\Debug\HumanCorp.Menu.Menu.resources
 C:\Project\HumanCorp\obj\Debug\HumanCorp.Apontamento.RegistroHoras.resources
 C:\Project\HumanCorp\obj\Debug\HumanCorp.Cadastro.Cargo.resources
 C:\Project\HumanCorp\obj\Debug\HumanCorp.Cadastro.Departamento.resources
+C:\Project\HumanCorp\obj\Debug\HumanCorp.Cadastro.Funcionario.resources
+C:\Project\HumanCorp\obj\Debug\HumanCorp.Menu.MenuGeral.resources

@@ -1,6 +1,6 @@
 ﻿namespace HumanCorp.Menu
 {
-    partial class Menu
+    partial class MenuGeral
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuGeral));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aasdasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,19 +72,19 @@
             // aasdasToolStripMenuItem
             // 
             this.aasdasToolStripMenuItem.Name = "aasdasToolStripMenuItem";
-            this.aasdasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aasdasToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.aasdasToolStripMenuItem.Text = "Funcionário";
             // 
             // departamentoToolStripMenuItem
             // 
             this.departamentoToolStripMenuItem.Name = "departamentoToolStripMenuItem";
-            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.departamentoToolStripMenuItem.Text = "Departamento";
             // 
             // cargoToolStripMenuItem
             // 
             this.cargoToolStripMenuItem.Name = "cargoToolStripMenuItem";
-            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.cargoToolStripMenuItem.Text = "Cargo";
             // 
             // apontamentoToolStripMenuItem
@@ -98,7 +98,7 @@
             // registoDeHorasToolStripMenuItem
             // 
             this.registoDeHorasToolStripMenuItem.Name = "registoDeHorasToolStripMenuItem";
-            this.registoDeHorasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.registoDeHorasToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
             this.registoDeHorasToolStripMenuItem.Text = "Registo de Horas";
             // 
             // folhaSalarialToolStripMenuItem
@@ -112,7 +112,7 @@
             // calculoSalarialToolStripMenuItem
             // 
             this.calculoSalarialToolStripMenuItem.Name = "calculoSalarialToolStripMenuItem";
-            this.calculoSalarialToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.calculoSalarialToolStripMenuItem.Size = new System.Drawing.Size(194, 26);
             this.calculoSalarialToolStripMenuItem.Text = "Calculo Salarial";
             // 
             // relatóriosToolStripMenuItem
@@ -143,7 +143,7 @@
             this.resgistrosDePontosToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.resgistrosDePontosToolStripMenuItem.Text = "Resgistros de Pontos";
             // 
-            // Menu
+            // MenuGeral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -154,7 +154,8 @@
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Menu";
+            this.MinimizeBox = false;
+            this.Name = "MenuGeral";
             this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

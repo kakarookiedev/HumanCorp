@@ -64,6 +64,12 @@
     <Compile Include="Cadastro\Departamento.Designer.cs">
       <DependentUpon>Departamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cadastro\Funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Funcionario.Designer.cs">
+      <DependentUpon>Funcionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modelo\mdlCargo.cs" />
     <Compile Include="Modelo\mdlDepartamento.cs" />
     <Compile Include="Modelo\mdlLogin.cs" />
@@ -73,11 +79,11 @@
     <Compile Include="Login\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu\Menu.cs">
+    <Compile Include="Menu\MenuGeral.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu\Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="Menu\MenuGeral.Designer.cs">
+      <DependentUpon>MenuGeral.cs</DependentUpon>
     </Compile>
     <Compile Include="Modelo\mdlPontos.cs" />
     <Compile Include="Program.cs" />
@@ -91,11 +97,14 @@
     <EmbeddedResource Include="Cadastro\Departamento.resx">
       <DependentUpon>Departamento.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro\Funcionario.resx">
+      <DependentUpon>Funcionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu\Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="Menu\MenuGeral.resx">
+      <DependentUpon>MenuGeral.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

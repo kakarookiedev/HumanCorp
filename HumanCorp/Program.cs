@@ -1,10 +1,6 @@
-﻿using HumanCorp.Apontamento;
-using HumanCorp.Cadastro;
+﻿
 using HumanCorp.Menu;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace HumanCorp
@@ -19,7 +15,7 @@ namespace HumanCorp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Departamento());
+            Application.Run(new MenuGeral());
         }
     }
 }

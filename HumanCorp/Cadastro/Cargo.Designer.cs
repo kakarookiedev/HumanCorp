@@ -129,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(651, 329);
+            this.ClientSize = new System.Drawing.Size(651, 215);
             this.Controls.Add(this.groupBox1);
             this.Name = "Cargo";
             this.Text = "Cargo";

@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HumanCorp.Menu
+namespace HumanCorp.Cadastro
 {
-    public partial class Menu : Form
+    public partial class Funcionario : Form
     {
-        public Menu()
+        public Funcionario()
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
         }
     }
 }
